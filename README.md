@@ -10,11 +10,11 @@ ACLARACIÓN IMPORTANTE: El ejercicio fue realizado en Firefox desde un entorno v
 ## EVIDENCIA OBSERVADA
 ![Captura de las ventana de herramientas de desarrollador](captura.png)
 Durante la inspección del tráfico de red mediante la pestaña de Network (Red), se registraron los siguientes parámetros:
-* **URL solicitada:** 'http://neverssl.com/'
-* **Método HTTP:** 'GET'
-* **Host:** 'neverssl.com'
-* **Protocolo utilizado** 'HTTP/1.1'
-* **Headers inspeccionados:** 'User-Agent', 'Accept', 'Host', 'Accept-Encoding', etc.
+* **URL solicitada:** http://neverssl.com/
+* **Método HTTP:** GET
+* **Host:** neverssl.com
+* **Protocolo utilizado** HTTP/1.1
+* **Headers inspeccionados:** User-Agent, Accept, Host, Accept-Encoding, etc.
 
 ## RIESGOS ENCONTRADOS
 Al transmitir información mediante HTTP en una red Wi-Fi pública se idintifican los siguientes posibles riesgos:
